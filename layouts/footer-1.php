@@ -1,7 +1,6 @@
-   </div>
 <footer id="footer">
   <div class="text-center">
-    <div class="col-lg-12 box-foot">
+    <div class="col-lg-12">
       <span>Desenvolvido por</span>
       <a href="https://chapabr.github.io/portfolio" target="_blank">Guilherme Augusto</a>
     </div>
@@ -14,4 +13,4 @@
 	<script type="text/javascript" src="libs/bootstrap-4.3.1-dist/js/bootstrap.js"></script>
 	<script type="text/javascript" src="assets/js/coreui.js"></script>
 </body>
-</html
+</html>

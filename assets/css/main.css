@@ -1,0 +1,131 @@
+body {
+	background-image: url(../images/back-image.jpg);
+}
+/* Start Nav */
+header.app-header {
+	background-color: #4a4a4a;
+	border: none;
+}
+
+header span.navbar-toggler-icon {
+	color: #ffcd38;
+}
+/* End Nav */
+
+/* Start Index */
+section#index {
+	height: 85vh;
+	margin-top: 80px;
+}
+
+section#index div.btn-index {
+	margin-top: 160px;
+	width: 100px;
+}
+
+section#index a.btn-index {
+	color: #4a4a4a;
+	font-weight: 700;
+	font-size: 16px;
+	background-image: linear-gradient(rgba(255, 205, 56, .7), rgba(255, 221, 103, .7));
+	border-radius: 10px;
+	padding: 20%;
+}
+/* End Index */
+
+/* Start Welcome*/
+section#index div.card {
+	margin: 80px auto;
+	width: 25rem;
+	background-color: rgba(74, 74, 74, .7);
+	border: none;
+	border-radius: 7px;
+}
+
+section#index div.card-header {
+	border: none;
+	background-image: linear-gradient(rgba(255, 205, 56, .7), rgba(255, 221, 103, .7));
+}
+
+section#index div.card-header h3 {
+	color: #4a4a4a; 
+	text-align: center;
+}
+
+section#index div.card-body img {
+	color: #ffcd38;
+	font-size: 30px;
+	border: 2px solid #ffcd38;
+	border-radius: 50%;
+	width: 125px;
+	height: 125px;
+	padding: 33px;
+	margin: 5px 0 25px 0;
+}
+
+section#index div.card-body input,
+section#index div.card-body div.icon {
+	background-color: #4a4a4a;
+	color: #fff;
+}
+
+section#index div.card-body input::placeholder {
+	color: #e5e0e0;
+}
+
+section#index div.card-footer {
+	border: none;
+	background-color: rgba(74, 74, 74, 0);
+	color: #fff;
+	text-align: center;
+}
+
+section#index div button {
+	background-image: linear-gradient(rgba(255, 205, 56, .9), rgba(255, 221, 103, .9));
+	border: none;
+	color: #4a4a4a;
+	font-weight: 700;
+	font-size: 16px;
+}
+/* End Welcome */
+
+/* Start Fila */
+section#fila,
+section#fila table {
+	color: #fff;
+	padding-top: 40px;
+}
+
+section#fila table td i{
+	color: #fff;
+	background-color: #0000ff;
+	padding: 10px;
+	border-radius: 50%;
+	margin: 2px;
+
+}
+
+section#fila table td i.arrows {
+	background-color: #ffcd38;
+}
+/* End FIla */
+
+/* Start Footer */
+footer#footer {
+	border-top: 1px solid #fff;
+	height: 5vh;
+	color: #4a4a4a;
+}
+
+footer#footer div.box-foot {
+	margin: auto 0;
+}
+
+footer#footer span,
+footer#footer a {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 600;
+	text-decoration: none;
+}
+/* End Footer */
