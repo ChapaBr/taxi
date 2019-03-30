@@ -3,9 +3,8 @@
   <nav class="sidebar-nav">
     <ul class="nav">
       <li class="nav-item">
-        <a class="nav-link" href="home.php">
-          <i class="nav-icon icon-speedometer"></i> Serviços
-          <span class="badge badge-primary">NEW</span>
+        <a class="nav-link" href="#">
+          <i class="nav-icon icon-speedometer"></i> Bem Vindo <?php echo $_SESSION['nome']; ?>
         </a>
       </li>
       <li class="nav-item">

@@ -12,7 +12,7 @@ require_once('layouts/header-1.php');
 					</div>
 				  <div class="card-body text-center">
 				  	<img src="assets/images/logo.svg">
-				    <form action="#" method="post">
+				    <form action="controller/logar.php" method="post">
 					  <div class="form-row align-items-center">
 					    <div class="col-12">
 					      <label class="sr-only" for="inputEmail">Email</label>
@@ -20,16 +20,16 @@ require_once('layouts/header-1.php');
 					        <div class="input-group-prepend">
 					          <div class="input-group-text icon"><i class="fas fa-at"></i></div>
 					        </div>
-					        <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+					        <input type="text" class="form-control" id="inputEmail" name="inputEmail" placeholder="Email">
 					      </div>
 					    </div>
 					    <div class="col-12">
-					      <label class="sr-only" for="inputPassword">Senha</label>
+					      <label class="sr-only" for="inputSenha">Senha</label>
 					      <div class="input-group mb-2">
 					        <div class="input-group-prepend">
 					          <div class="input-group-text icon"><i class="fas fa-key"></i></div>
 					        </div>
-					        <input type="password" class="form-control" id="inputPassword" placeholder="Senha">
+					        <input type="password" class="form-control" id="inputSenha" name="inputSenha" placeholder="Senha">
 					      </div>
 					    </div>
 					    <div class="col-12">

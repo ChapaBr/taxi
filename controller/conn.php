@@ -3,7 +3,7 @@ class conn {
 	private $host = 'localhost';
 	private $usuario = 'root';
 	private $senha = '';
-	private $database = '';
+	private $database = 'taxi';
 
 	public function conecta_mysql(){
 		$con = mysqli_connect($this -> host, $this -> usuario, $this -> senha, $this -> database);

@@ -110,6 +110,29 @@ section#fila table td i.arrows {
 }
 /* End FIla */
 
+/* Start Motoristas */
+section#motoristas {
+	padding-top: 40px;
+}
+
+section#motoristas div.accordion {
+	width: 98%;
+}
+
+section#motoristas div.card-header {
+	background-image: linear-gradient(rgba(255, 205, 56, .5), rgba(255, 221, 103, .5));
+}
+
+section#motoristas div.card-body {
+	background-image: linear-gradient(rgba(255, 205, 56, .3), rgba(255, 221, 103, .3));
+	background-color: transparent;
+}
+
+section#motoristas h2 {
+	color: #fff;
+}
+/* End Motoristas */
+
 /* Start Footer */
 footer#footer {
 	border-top: 1px solid #fff;

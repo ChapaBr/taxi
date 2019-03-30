@@ -1,5 +1,6 @@
 <?php
-require_once('layouts/header.php')
+session_start();
+require_once('layouts/header.php');
 ?>
 <?php include_once('layouts/sidebar.php'); ?>
 <main class="main">
@@ -22,7 +23,7 @@ require_once('layouts/header.php')
                 </tr>
               </thead>
               <tbody>
-                <tr>
+                <tr> 
                   <th scope="row">1</th>
                   <td>123</td>
                   <td>Claudio</td>
