@@ -1,7 +1,6 @@
 <footer id="footer">
   <div class="text-center">
     <div class="col-lg-12">
-      <span>Desenvolvido por</span>
       <a href="https://chapabr.github.io/portfolio" target="_blank">Guilherme Augusto</a>
     </div>
   </div>

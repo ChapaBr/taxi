@@ -19,7 +19,7 @@
       </button>
       <a class="navbar-brand" href="#">
         <img class="navbar-brand-full" src="assets/images/logo.svg" width="89" height="25" alt="CoreUI Logo">
-        <img class="navbar-brand-minimized" src="assets/images/.svg" width="30" height="30" alt="CoreUI Logo">
+        <img class="navbar-brand-minimized" src="assets/images/logo.svg" width="30" height="30" alt="CoreUI Logo">
       </a>
       <ul class="nav navbar-nav ml-auto">
         <li class="nav-item dropdown">
@@ -27,18 +27,19 @@
             <i class="fas fa-user-circle" style="font-size: 30px;"></i>
             <!-- <img class="img-avatar" src="img/avatars/6.jpg" alt="admin@bootstrapmaster.com"> -->
           </a>
-          <div class="dropdown-menu dropdown-menu-right">
+          <div class="dropdown-menu dropdown-menu-right lateral">
             <div class="dropdown-header text-center">
-              <strong>Settings</strong>
+              <strong>Opções</strong>
             </div>
-            <a class="dropdown-item" href="#">
+            <a class="dropdown-item" href="perfil.php">
               <i class="fa fa-user"></i> Perfil
             </a>
             <a class="dropdown-item" href="#">
               <i class="fa fa-wrench"></i> Configurações
             </a>
-            <a class="dropdown-item" href="#">
-              <i class="fa fa-lock"></i> Sair</a>
+            <a class="dropdown-item" href="controller/sair.php">
+              <i class="fa fa-lock"></i> Sair
+            </a>
           </div>
         </li>
       </ul>
